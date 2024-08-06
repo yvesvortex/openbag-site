@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenBag - Sacolas Ecológicas de TNT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product div {
+            flex: 1;
+            padding: 10px;
+            box-sizing: border-box;
+            min-width: 300px;
+        }
+        .product img {
+            max-width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OpenBag</h1>
+        <p>Sacolas Ecológicas de TNT</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Bem-vindo à OpenBag</h2>
+        <p>OpenBag é uma empresa dedicada à produção e venda de sacolas ecológicas de TNT. Nossas sacolas são sustentáveis, reutilizáveis e perfeitas para qualquer ocasião.</p>
+    </div>
+    <div class="container" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na OpenBag, nossa missão é fornecer alternativas ecológicas às sacolas plásticas tradicionais. Acreditamos que
